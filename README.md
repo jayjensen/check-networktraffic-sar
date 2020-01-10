@@ -11,7 +11,10 @@ See the script itself for further infos or use
 for usage-infos.
 
 ```
-check_networktraffis.sh -h
+check_networktraffic.sh -h
+
+# Output:
+
 This script checks for network-interface-statistics
 provided by the tool 'sar', which has to be installed previously.
 
