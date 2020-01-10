@@ -202,7 +202,7 @@ function get_interface_stats() {
 #                        Entrypoint
 # ---------------------------------------------------------------------
 
-while getopts ":w:W:c:C:d:i:" opt; do
+while getopts ":w:W:c:C:d:i:h" opt; do
   case $opt in
     w)
       W_INC=${OPTARG}
